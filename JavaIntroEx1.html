@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>  
+    <title>Array Ex 1</title>
+
+    <script>
+
+        var speed = prompt("what speed going? : ");
+        var age = prompt("what age is driver? : ");
+
+        speed = parseFloat(speed);
+        age = parseInt(age);
+
+        // pointsCounter = 0
+
+        var totalPoints;
+
+        if((speed > 80) && (age < 18)){
+            totalPoints = 4;
+        }
+            else if((speed > 80) || (age < 17)){
+                totalPoints = 2;
+            }
+            else {totalPoints = 0;
+
+            }
+
+        
+
+
+        alert("You are getting " + totalPoints + " points tonight")
+
+
+
+    </script>
+</head>
+
+</html>
